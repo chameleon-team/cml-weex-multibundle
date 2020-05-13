@@ -2,13 +2,13 @@
 本仓库主要提供使用weex多页面的配置demo
 
 
-升级cli版本
+### 升级cli版本
 
 ```
 npm i chameleon-tool@1.0.6-alpha.3 
 ```
 
-配置router.config.json
+### 配置router.config.json
 
 * 选项 mpa.weexMpa,Array[{paths:[]}]表示要配置weex多个bundle
 
@@ -73,3 +73,8 @@ npm i chameleon-tool@1.0.6-alpha.3
 }
 
 ```
+
+### 注意点
+
+* 路由的跳转需要注意，多个bundle之间不能再使用 navigateTo  navigateBack  navigateBack
+*  mpx.weexMpa 中为配置的在paths 中的页面将不会被构建进bundle中
