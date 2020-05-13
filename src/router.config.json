@@ -1,0 +1,46 @@
+{
+  "mode": "history",
+  "domain": "https://www.chameleon.com",
+  "routes":[
+    {
+      "url": "/cml/h5/index",
+      "path": "/pages/index/index",
+      "name": "首页",
+      "mock": "index.php"
+    },
+    {
+      "url": "/cml/h5/index1",
+      "path": "/pages/index/index1",
+      "name": "首页",
+      "mock": "index.php"
+    },
+    {
+      "url": "/cml/h5/index2",
+      "path": "/pages/index/index2",
+      "name": "首页",
+      "mock": "index.php"
+    },
+    {
+      "url": "/cml/h5/index3",
+      "path": "/pages/index/index3",
+      "name": "首页",
+      "mock": "index.php",
+      "extra": {
+        "version": {
+          "main": "5.3.2",
+          "blord": "30.0.4"
+        }
+      }
+    }
+  ],
+  "mpa":{
+    "weexMpa":[
+      {
+        "paths":["/pages/index/index","/pages/index/index3"]
+      },
+      {
+        "paths":["/pages/index/index2"]
+      }
+    ]
+  }
+}
