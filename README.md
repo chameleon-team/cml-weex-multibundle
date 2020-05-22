@@ -8,6 +8,10 @@
 npm i chameleon-tool@1.0.6-alpha.3 
 ```
 
+```
+chameleon-tool@1.0.6-alpha.5 版本支持配置name字段自定义bundle名称
+
+```
 ### 配置router.config.json
 
 * 选项 mpa.weexMpa,Array[{paths:[]}]表示要配置weex多个bundle
@@ -63,6 +67,7 @@ npm i chameleon-tool@1.0.6-alpha.3
   "mpa":{
     "weexMpa":[
       {
+        "name":"addRoutes",
         "paths":["/pages/index/index","/pages/index/index3"]
       },
       {
@@ -71,7 +76,6 @@ npm i chameleon-tool@1.0.6-alpha.3
     ]
   }
 }
-
 ```
 
 ### 注意点

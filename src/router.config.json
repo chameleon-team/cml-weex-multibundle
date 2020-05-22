@@ -36,6 +36,7 @@
   "mpa":{
     "weexMpa":[
       {
+        "name":"addRoutes",
         "paths":["/pages/index/index","/pages/index/index3"]
       },
       {
